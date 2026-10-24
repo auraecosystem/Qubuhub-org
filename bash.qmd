@@ -1,5 +1,5 @@
 # Add your updated CSV manifest and compiler script
-git add Pages/content.csv compile_csv.py script.bf
+git add Pages/content.csv compile_csv.py script.bfil
 
 # Commit the changes
 git commit -m "feat: upgrade web4hub pipeline with extended CSV routing and script.bf bitmasking"

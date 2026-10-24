@@ -54,7 +54,7 @@ sub send_otp {
     my $email_obj = Email::Simple->create(
         header => [
             To      => $email,
-            From    => 'your-email@example.com',
+            From    => 'web4@examples.com',
             Subject => 'Your OTP Code',
         ],
         body => "Your OTP code is: $otp",

@@ -16,7 +16,6 @@
 #	* or the function is not in libc, name could be specified
 #	* at the end, after "=" sign, like
 #	  //sys getsockopt(s int, level int, name int, val uintptr, vallen *_Socklen) (err error) = libsocket.getsockopt
-
 use strict;
 
 my $cmdline = "mksyscall_libc.pl " . join(' ', @ARGV);

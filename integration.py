@@ -1,4 +1,4 @@
-# Conceptual Python representation of dispatching the GPU memory layer
+# Conceptual  Python representation of dispatching the GPU memory layer
 import Metal
 import numpy as np
 
